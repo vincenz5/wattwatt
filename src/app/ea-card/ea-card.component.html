@@ -1,0 +1,44 @@
+<section class="team">
+  <div class="management">
+    <div id="management" class="card" *ngFor="let person of team">
+      <img class="headshot"  alt="" src="../assets/images/{{person.image}}">
+      <label for="main1">{{person.title}}</label>
+      <main id="main1">
+        <h2>{{person.bio}}</h2>
+      </main>
+      <a href="">
+        <img src="../../assets/images/{{person.link}}.svg" alt="">
+        <img class="linkedIn" src="../../assets/images/{{person.linked}}" alt="">
+
+      </a>
+    </div>
+  </div>
+
+  <div class="directors">
+    <div id="directors" class="card" *ngFor="let person of directors">
+      <img class="headshot"  alt="" src="../assets/images/{{person.image}}">
+      <label for="main1">{{person.title}}</label>
+      <main id="main1">
+        <h2>{{person.bio}}</h2>
+      </main>
+      <a href="">
+        <img src="../../assets/images/{{person.link}}.svg" alt="">
+        <img class="linkedIn" src="../../assets/images/{{person.linked}}" alt="">
+      </a>
+    </div>
+  </div>
+
+  <div class="advisors">
+    <div id="advisors" class="card" *ngFor="let person of advisors">
+      <img class="headshot" alt="" src="../assets/images/{{person.image}}">
+      <label for="main1">{{person.title}}</label>
+      <main id="main1">
+        <h2>{{person.bio}}</h2>
+      </main>
+      <a href="">
+        <img src="../../assets/images/{{person.link}}.svg" alt="">
+        <img class="linkedIn" src="../../assets/images/{{person.linked}}" alt="">
+      </a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,82 @@
+<section class="main">
+  <img class="nav" alt="" src="../assets/images/logo.svg">
+  <app-nav></app-nav>
+  <main style="z-index: 10;">
+    <aside>
+      <h2>
+        eaMode Technologies
+      </h2>
+      <h3>Building the self-aware enterprise</h3>
+      <br>
+      <br>
+      <h3>Bring your enterprise into the future with:</h3>
+      <ul class="value-props">
+
+        <span>
+          <img style="" alt="" src="../assets/images/logo.svg">
+          <li style="margin-left:5px;">Rapid application development</li>
+        </span>
+        <span>
+          <img alt="" src="../assets/images/logo.svg">
+          <li style="margin-left:5px;">real-time process oversight</li>
+        </span>
+        <span>
+          <img alt="" src="../assets/images/logo.svg">
+          <li style="margin-left:5px;">ongoing anamoly detection</li>
+        </span>
+        <span>
+          <img alt="" src="../assets/images/logo.svg">
+          <li style="margin-left:5px;">fully equiped native analytics</li>
+        </span>
+      </ul>
+    </aside>
+
+  </main>
+  <particles class="particles" [width]="width" [height]="height" [params]="myParams"></particles>
+  <div class="bg"></div>
+</section>
+
+<section id="services" class="radar">
+  <div class="title services">
+    <div class="cover"></div>
+    <img src="../assets/images/line.svg" alt="">
+    <span>eaServices</span>
+  </div>
+  <main>
+    <ea-services></ea-services>
+  </main>
+
+</section>
+
+<section id="studies" class="industries">
+  <div class="title team">
+    <div class="cover"></div>
+    <img src="../assets/images/line.svg" alt="">
+    <span>eaCase Studies</span>
+  </div>
+  <main class="case-studies">
+    <app-ea-industries></app-ea-industries>
+    <!-- <button (click)="toggleCaseStudy()"></button>
+    <div *ngIf="caseStudy === true">
+      <div class="expandable">
+      </div>
+    </div> -->
+  </main>
+</section>
+
+
+<!-- <ea-open></ea-open> -->
+
+<section id="team" class="benefits">
+  <div class="title team">
+    <div class="cover"></div>
+    <img src="../assets/images/line.svg" alt="">
+    <span>The eaTeam</span>
+  </div>
+  <main class="benefit-cards">
+    <ea-card></ea-card>
+  </main>
+</section>
+<section class="team">
+  <app-team></app-team>
+</section>

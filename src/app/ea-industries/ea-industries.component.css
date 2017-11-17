@@ -1,0 +1,17 @@
+
+.expandable {
+  height: 50vh;
+  background: var(--background-2)
+}
+/*
+.card-industry{
+  background: white;
+  height: 15rem;
+  width: 17.5rem;
+  border-top: 3px solid green;
+  margin-bottom: 2rem;
+} */
+.industry-pic{
+width: 20rem;
+height: 12.5rem;
+}

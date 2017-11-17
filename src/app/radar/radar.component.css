@@ -1,0 +1,139 @@
+
+
+
+
+
+#ellipse12948 {
+animation: rotate 5s 5;
+animation-timing-function: linear;
+transform-origin: center center;
+}
+
+#rect12660 {
+animation: rotate 5s 5;
+transform-origin: top center;
+animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {   transform: rotate(0deg); }
+  to {   transform: rotate(360deg); }
+}
+@-o-keyframes rotate {
+  from {   transform: rotate(0deg); }
+  to {   transform: rotate(360deg); }
+
+}
+@-moz-keyframes rotate {
+  from {   transform: rotate(0deg); }
+  to {   transform: rotate(360deg); }
+
+}
+@keyframes rotate {
+  from {   transform: rotate(0deg); }
+  to {   transform: rotate(360deg); }
+
+}
+
+#circle4201 {
+transform: scale(0); opacity:0;
+
+transform-origin: top center;
+animation-timing-function: linear;
+
+-webkit-animation: detectado, detectado, detectado,detectado,detectado;
+  -webkit-animation-delay:0s, 6s, 8s, 13s, 16s,20s;
+  -webkit-animation-duration: 3s;
+  animation: detectado, detectado, detectado,detectado,detectado;
+  animation-delay: 0.3s, 5.7s, 10.7s, 15.7s, 17.7s,21.7s;
+  animation-duration: 2s;
+
+}
+
+#circle4199 {
+transform: scale(0); opacity:0;
+transform-origin: top center;
+animation-timing-function: linear;
+
+    -webkit-animation: detectado, detectado, detectado,detectado,detectado;
+  -webkit-animation-delay:0s, 5s, 10s, 15s, 20s,25s;
+  -webkit-animation-duration: 3s;
+  animation: detectado, detectado, detectado,detectado,detectado;
+  animation-delay: 1s, 7s, 12s, 17s, 22s,27s;
+  animation-duration: 2.2s;
+
+}
+
+#path4191 {
+transform: scale(0); opacity:0;
+transform-origin: top center;
+animation-timing-function: linear;
+
+    -webkit-animation: detectado, detectado, detectado,detectado,detectado;
+  -webkit-animation-delay:0s, 7.3s, 12.3s, 17.3s, 22.3s,27.3s;
+  -webkit-animation-duration: 3s;
+  animation: detectado, detectado, detectado,detectado,detectado;
+  animation-delay: 0.7s, 7.5s, 12.5s, 17.5s, 22.5s,27.5s;
+  animation-duration: 2.2s;
+}
+
+
+#circle4193 {
+transform: scale(0); opacity:0;
+transform-origin: top center;
+animation-timing-function: linear;
+
+    -webkit-animation: detectado, detectado, detectado,detectado,detectado;
+  -webkit-animation-delay:1s, 6s, 11s, 16, 21s,26s;
+  -webkit-animation-duration: 3s;
+  animation: detectado, detectado, detectado,detectado,detectado;
+  animation-delay: 3s, 8s, 13s, 18s, 23s,28s;
+  animation-duration: 2.4s;
+}
+
+#circle4195 {
+transform: scale(0); opacity:0;
+transform-origin: top center;
+animation-timing-function: linear;
+
+    -webkit-animation: detectado, detectado, detectado,detectado,detectado;
+  -webkit-animation-delay: 1.5s, 6.5s, 11.5s, 16.5s, 21.5s,26.5s;
+
+  -webkit-animation-duration: 3s;
+  animation: detectado, detectado, detectado,detectado,detectado;
+  animation-delay: 3.8s, 8.8s, 13.8s, 18.8s, 23.8s,28.8s;
+  animation-duration: 2.7s;
+}
+
+#circle4197 {
+transform: scale(0); opacity:0;
+transform-origin: top center;
+animation-timing-function: linear;
+
+    -webkit-animation: detectado, detectado, detectado,detectado,detectado;
+  -webkit-animation-delay: 1.7s, 6.7s, 11.7s, 16.7s, 21.7s,26.7s;
+
+  -webkit-animation-duration: 3s;
+  animation: detectado, detectado, detectado,detectado,detectado;
+  animation-delay: 4s, 9s, 14s, 19s, 24s,29s;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes detectado {
+  from {   transform: scale(0); opacity:1; }
+  to {   transform: scale(1); opacity:0; }
+}
+@-o-keyframes detectado {
+  from {   transform: scale(0); opacity:1; }
+  to {   transform: scale(1); opacity:0; }
+
+}
+@-moz-keyframes detectado {
+  from {   transform: scale(0); opacity:1; }
+  to {   transform: scale(1); opacity:0; }
+
+}
+@keyframes detectado {
+  from {   transform: scale(0); opacity:1; }
+  to {   transform: scale(1); opacity:0; }
+}

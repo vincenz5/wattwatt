@@ -1,0 +1,78 @@
+.particles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--background-1);
+  opacity: .9;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.radar aside,
+footer aside {
+  align-items: flex-start;
+}
+
+.bg {
+  background-image: url("../../assets/images/hubble.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  z-index: -2;
+}
+
+.benefit-cards {
+  width: 60%;
+}
+
+.benefits .title {
+  color: var(--color-1);
+}
+
+ea-services {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+app-ea-industries {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 70vh;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 5rem;
+}
+
+.expandable {
+  height: 50vh;
+  background: var(--background-2)
+}
+
+.industries {
+  min-height: 50vh;
+  background: var(--background-1)
+}
+
+.title .cover {
+  background: var(--background-1)
+}
+
+.case-studies {
+  width: 100%;
+  flex-wrap:wrap;
+}

@@ -1,0 +1,22 @@
+<div class="card-industry" *ngFor="let person of industries" >
+  <img class="industry-pic" alt="" src="../assets/images/{{person.image}}">
+  <label for="main1">{{person.title}}</label>
+  <main id="main1">
+    <h2>{{person.bio}}</h2>
+    <ul>
+      <p>Problem</p>
+      <li>Needed this</li>
+      <li>Needed this</li>
+    </ul>
+    <ul>
+      <p>Solution</p>
+      <li>Needed this</li>
+      <li>Needed this</li>
+    </ul>
+  </main>
+  <a href="">
+    <img src="../../assets/images/{{person.link}}.svg" alt="">
+  </a>
+</div>
+
+

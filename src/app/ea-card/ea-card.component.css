@@ -1,0 +1,28 @@
+.management,
+.directors,
+.advisors {
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-bottom: 4rem;
+}
+
+.card {
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team {
+  padding: 4rem 0 4rem 0;
+}
+
+.headshot {
+  width: 8rem;
+}
+
+.linkedIn {
+width: 20px;
+}
