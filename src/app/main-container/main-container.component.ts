@@ -28,20 +28,20 @@ export class MainContainerComponent implements OnInit {
     this.myParams = {
       'particles': {
         'number': {
-          'value': 50,
+          'value': 90,
           'density': {
             'enable': true,
-            'value_area': 1800
+            'value_area': 800
           }
         },
         'color': {
-          'value': '#1d1d1d'
+          'value': '#d2a0ce'
         },
         'shape': {
           'type': 'circle',
           'stroke': {
             'width': 0,
-            'color': '#ffffff'
+            'color': '#000000'
           },
           'polygon': {
             'nb_sides': 5
@@ -63,7 +63,7 @@ export class MainContainerComponent implements OnInit {
           }
         },
         'size': {
-          'value': 3,
+          'value': 2,
           'random': true,
           'anim': {
             'enable': false,
@@ -75,13 +75,13 @@ export class MainContainerComponent implements OnInit {
         'line_linked': {
           'enable': true,
           'distance': 150,
-          'color': '#ffffff',
-          'opacity': 0.4,
-          'width': 1
+          'color': '#af4ce6',
+          'opacity': 0.5,
+          'width': 2
         },
         'move': {
           'enable': true,
-          'speed': 6,
+          'speed': 0,
           'direction': 'none',
           'random': false,
           'straight': false,
@@ -115,9 +115,9 @@ export class MainContainerComponent implements OnInit {
             }
           },
           'bubble': {
-            'distance': 400,
-            'size': 40,
-            'duration': 2,
+            'distance': 1500,
+            'size': 491.50849150849155,
+            'duration': 5.194805194805195,
             'opacity': 8,
             'speed': 3
           },

@@ -15,3 +15,25 @@
 width: 20rem;
 height: 12.5rem;
 }
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+#main1 {
+  padding: 0 1rem 0 1rem;
+}
+
+h2 {
+  font-weight: 900;
+}

@@ -1,8 +1,8 @@
   <aside *ngFor="let items of services">
     <div class="image-card">
-      <img src="../../assets/images/{{items.image}}" alt="">
+      <img style="height: 100%; weird: 100%;" src="../../assets/images/{{items.image}}" alt="">
     </div>
-    <h2>{{items.service}}</h2>
+    <span class="header"> <h2>{{items.service}}</h2><img class="checkmark" src="../../assets/images/crown.svg" alt=""></span>
     <ul >
       <li *ngFor="let feats of items.feature"><span><img class="checkmark" src="../../assets/images/checkmark.svg" alt=""></span>{{feats.item}}</li>
     </ul>

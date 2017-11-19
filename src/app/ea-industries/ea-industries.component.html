@@ -5,18 +5,13 @@
     <h2>{{person.bio}}</h2>
     <ul>
       <p>Problem</p>
-      <li>Needed this</li>
-      <li>Needed this</li>
+      <li *ngFor="let items of person.problems">{{items.name}}</li>
     </ul>
     <ul>
       <p>Solution</p>
-      <li>Needed this</li>
-      <li>Needed this</li>
+      <li *ngFor="let sols of person.solutions">{{sols.name}}</li>
     </ul>
   </main>
-  <a href="">
-    <img src="../../assets/images/{{person.link}}.svg" alt="">
-  </a>
 </div>
 
 

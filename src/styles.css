@@ -39,7 +39,7 @@ section.team-main {
 
 
 section.main img.nav {
-  width: 30px;
+  width: 50px;
   position: fixed;
   top: 10px;
   left: 25px;
@@ -86,12 +86,13 @@ position: relative;
 }
 
 .title.services {
-  background-image: url("/assets/images/image.png");
+  background-image: url("/assets/images/background-wood.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title.team {
-  background-image: url("/assets/images/team.png");
+  background-image: url("/assets/images/caseStudy.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -132,7 +133,7 @@ section.main ul.nav {
   display: flex;
   margin: 0;
   padding: 0;
-  width: 30%;
+  width: 25%;
   justify-content: space-around;
   right: 0;
   top: 10px
@@ -166,7 +167,7 @@ section.main li {
 section.main main {
   display: flex;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
   /*background: #1d1d1d;*/
   color: white;
   opacity: .93;
@@ -185,7 +186,7 @@ section.benefits div.card {
   background: white;
   height: 17.5rem;
   width: 12rem;
-  border-top: 3px solid green;
+  border-top: 3px solid #9b0090;
   margin-bottom: 2rem;
 }
 
@@ -193,7 +194,8 @@ section.benefits div.card {
   background: white;
   min-height: 17.5rem;
   min-width: 17.5rem;
-  border-top: 3px solid green;
+  max-width: 20rem;
+  border-top: 3px solid #9b0090;
   margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
@@ -293,7 +295,7 @@ footer main ul {
   left: 50%;
   right: 50%;
   bottom: 0;
-  background: green;
+  background: #9b0090;
   height: 2px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
